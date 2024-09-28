@@ -82,6 +82,7 @@ export default function FormCadProdutos(props) {
                     <Form.Control.Feedback type='invalid'>Por favor, informe o código do produto!</Form.Control.Feedback>
                 </Form.Group>
             </Row>
+            
             <Row className="mb-4">
                 <Form.Group as={Col} md="12">
                     <Form.Label>Descrição</Form.Label>
@@ -96,6 +97,7 @@ export default function FormCadProdutos(props) {
                     <Form.Control.Feedback type="invalid">Por favor, informe a descrição do produto!</Form.Control.Feedback>
                 </Form.Group>
             </Row>
+
             <Row className="mb-4">
                 <Form.Group as={Col} md="4">
                     <Form.Label>Preço de Custo:</Form.Label>
@@ -152,6 +154,7 @@ export default function FormCadProdutos(props) {
                     </InputGroup>
                 </Form.Group>
             </Row>
+
             <Row className="mb-4">
                 <Form.Group as={Col} md="12">
                     <Form.Label>Url da imagem:</Form.Label>
@@ -166,6 +169,7 @@ export default function FormCadProdutos(props) {
                     <Form.Control.Feedback type="invalid">Por favor, informe a url da imagem do produto!</Form.Control.Feedback>
                 </Form.Group>
             </Row>
+
             <Row className="mb-4">
                 <Form.Group as={Col} md="12">
                     <Form.Label>Válido até:</Form.Label>
@@ -180,6 +184,7 @@ export default function FormCadProdutos(props) {
                     <Form.Control.Feedback type="invalid">Por favor, informe a data de validade do produto!</Form.Control.Feedback>
                 </Form.Group>
             </Row>
+
             <Row className='mt-2 mb-2'>
                 <Col md={1}>
                     <Button type="submit">{props.modoEdicao ? "Alterar":"Confirmar"}</Button>
